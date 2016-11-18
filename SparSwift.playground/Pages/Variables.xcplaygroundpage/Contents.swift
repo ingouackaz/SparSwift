@@ -27,9 +27,11 @@
  */
 //: Pour déclarer une variable, on utilise le mot clé `var` suivi du `nomDeLaVariable` de son `type` puis  enfin de la `valeur` qu'on souhaite lui assigner.
 //:
- var myName : String = "Roger"
+var myName : String = "Roger"
 var myLastName : String = "Federer"
 var myOld : Int = 24
+
+// Rajouter let
 
 //: En français les lignes ci-dessus se traduisent  par
 //:
@@ -50,12 +52,12 @@ var myOld : Int = 24
 //: --------------------------------
 //: **Exercice 0**
 //:
-//: Créez une variable qu'on appellera `strExample` de type `String` qui contiendra la valeur _"Premier exemple"_
+//: Créez une variable qu'on appellera `Premier exemple` de type `String` qui contiendra la valeur _"Premier exemple"_
 //:
-var strExample : String = "Premier exemple"
-//: > **À savoir** :
-//: Pour vérifier si l'exercice est correct il faut faire appel aux correcteurs de cette maniere : `SparSwift_correct_my_exercice_number(strExample)`
-SparSwift_correct_my_exercice_0(string: strExample)
+var str1 : String = "Premier exemple"
+
+
+SparSwift_correct_my_exercice_0(string: "")
 //: > **À savoir** :
 //: Vérifier ensuite la correction de votre exercice dans la console ci dessous :) 
 //:  Good luck !
@@ -77,7 +79,7 @@ SparSwift_correct_my_exercice_1(string: str)
 //: --------------------------------
 //: **Exercice 3**
 //:
-//: Créez une variable qu'on appellera `num` de type `Int` qui contiendra la valeur _23_
+//: Créez une variable qu'on appellera `num` de type `Int` qui contiendra la valeur _21_
 var num : Int = 0
 // SparSwifter_exo_2(word:str)
 //: --------------------------------
@@ -87,6 +89,8 @@ var num : Int = 0
 var tailleEnMetre : String = "Salut les amis"
 // SparSwifter_exo_2(word:str)
 ///: --------------------------------
+
+
 //: **Exercice 5**
 //:
 //: Créez 2 variables : une qu'on appellera  name de type String et une autre qu'on appellera lastname de type String. Elles contiendront respectivements les valeus _"Roger"_ et _"Federer"_
@@ -95,7 +99,7 @@ var str4 : String = "Salut les amis"
 //: --------------------------------
 //: **Exercice 6**
 //:
-//: Créez une variable qu'on appelera isCool de type Bool. isCool contiendra la valeur true
+//: Créez une variable qu'on appelera name de type String une autre qu'on appellera lastname de type String, une autre qu'ona appelera anneeNaissance de type Int, une autre qu'on appelera taille en Double et une dernière qu'on appelera poids en Int.
 //:
 // SparSwifter_exo_2(word:str)
 //: --------------------------------
@@ -109,7 +113,7 @@ var str4 : String = "Salut les amis"
 //:
 //: Vrai ou Faux : On peut stocker la valeur "Terre" dans une variable de type String
 //:
-// SparSwifter_exo_2(word:str)
+  SparSwift_correct_my_exercice_8(answer:true)
 //: --------------------------------
 //: **Exercice 9**
 //:
@@ -134,10 +138,11 @@ var str4 : String = "Salut les amis"
 //: Cette ligne est correct  :  _var pseudo : String = "007"_
 //:
 // SparSwifter_exo_2(word:str)
+
 //: --------------------------------
 //: **Exercice 13**
 //:
-//: Cette ligne est correct  :  _let petitPainPrice : Double = 1.40
+//: Cette ligne est correct  :  _let petitPainPrice : Double = 1.40_
 //:
 // SparSwifter_exo_2(word:str)
 //:

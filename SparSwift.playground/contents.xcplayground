@@ -3,5 +3,7 @@
     <pages>
         <page name='Intro'/>
         <page name='Variables'/>
+        <page name='Condition&amp;Fonctions'/>
+        <page name='Markup'/>
     </pages>
 </playground>
