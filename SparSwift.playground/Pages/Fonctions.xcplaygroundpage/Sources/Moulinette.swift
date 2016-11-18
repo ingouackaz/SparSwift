@@ -21,11 +21,6 @@ public func applyToString(prenom:String,nom:String, f:(String,String)->String) {
 
 public func SparSwift_correct_my_exercice_0( f:(String,String)->String){
 
-    let prenom1 : String = "Roger"
-    let prenom2 : String = "Maxime"
-    let prenom3 : String = "Lucas"
-    
-
     applyToString(prenom: "hello", nom:"Mao",f: f) // "Hello"
 }
 

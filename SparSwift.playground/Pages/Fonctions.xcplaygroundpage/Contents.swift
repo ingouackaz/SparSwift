@@ -1,6 +1,26 @@
 //: [Previous](@previous)
 
 import Foundation
+// Initiation au fonction avec le cours sur les opérateurs
+// Leurs faire oprateur + print -> jusqu'a ce que cela soit repetitit -> on utilisera une fonction
+
+
+var result0 : Int = 8 + 8
+var result2 : Int = 12 + 12
+var result3 : Int = 14 + 12
+var result4 : Int = 15 + 12
+var result5 : Int = 16 + 12
+
+
+func addition(num1:Int,num2:Int) -> Int{
+
+    let resultat = num1 + num2
+    print("Le resultat de l'adition \(num1) + \(num2) = \(resultat)")
+
+    return resultat
+}
+
+addition(num1: addition(num1: 90, num2: 90), num2: addition(num1: 90, num2: 90))
 
 /*:
  # LES FONCTIONS
@@ -98,26 +118,47 @@ import Foundation
 --------------------------------
    **Exercice 0**
  * Créez une fonction qu'on appellera `disBonjour`.
- * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
- * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ * disBonjour prendra en paramètre 1 variable de type `String` qu'on appelera `prenom` .
+ * disBonjour renverra une variable de type `String` qui contiendra la valeur `"Bonjour prenom comment tu vas :) ?"`
  */
 //:
 
-func disBonjour(prenom:String, nom:String) -> String {
+func disBonjour(prenom:String) -> String {
 
-    let result : String = "Bonjour " + prenom + " " + nom
+    let result : String = "Bonjour " + prenom + "comment tu vas ?"
     
     print(result)
     
     return result
 }
 
-disBonjour(prenom: "Roger", nom: "Infgouacka")
-SparSwift_correct_my_exercice_0(f: disBonjour)
+disBonjour(prenom: "Roger")
 
-//: > **À savoir** :
-//: Vérifier ensuite la correction de votre exercice dans la console ci dessous :)
-//:  Good luck !
-//: --------------------------------
-
+/*:SparSwift_correct_my_exercice_0(f: disBonjour)
+   > **À savoir** :
+   Vérifier ensuite la correction de votre exercice dans la console ci dessous :)
+   Good luck !
+--------------------------------
+**Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjourMr`.
+ * disBonjourMr prendra en paramètre 2 variable de type `String` qu'on appelera `prenom` et `nom`.
+ * disBonjourMr renverra une String qui contiendra `"Bonjour Mr + prenom + nom + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 2**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+*/
+//:
 //: [Précédent](@previous) | [Suivant](@next)

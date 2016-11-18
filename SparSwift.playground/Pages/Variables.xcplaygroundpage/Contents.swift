@@ -152,6 +152,12 @@ var str4 : String = "Salut les amis"
 //: Cette ligne est correct  :  _let  : string = "Michael"_
 //:
 // SparSwifter_exo_2(word:str)
+
+
+//: Les variables comme leurs nom l'indique sont faites pour changer pour être manipulé , voyons ça ensemble dans le prochain Chapitre :D 
+//: 
+//: 
 //:
+
 //: [Précédent](@previous) | [Suivant](@next)
 
