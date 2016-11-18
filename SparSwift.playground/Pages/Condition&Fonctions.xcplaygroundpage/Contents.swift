@@ -11,8 +11,8 @@ import Foundation
  
  En Swift, il existe énormément de fonctions déjà prêtes à l'emploi. Vous n'avez plus qu'à les utiliser comme vous le souhaitez. Je pourrais vous les présenter tout de suite, mais cela nécessiterait une autre notion, plus complexe à apprendre, pour pouvoir les utiliser. Je ne voudrais pas vous embêter avec ces termes ; promis, je reviens là-dessus plus tard
  
- 
-
+  */
+/*:
  ## La syntaxe
  
  * On écrit le mot-cléfunc (diminutif de function, fonction en français).
@@ -38,7 +38,7 @@ import Foundation
       }
  
      disBonjour()
-//:
+*/
 //: ## Fonctions avec paramètres
 /*:
  
@@ -77,5 +77,47 @@ import Foundation
  
      }
  
+ Ce qui nous dans un cas concret :
+
+     func calculeCarre(nombre: Int) -> Int {
+     let nombre = nombre * nombre
+ 
+     return nombre
+     }
+ 
+     // Pour récupérer ces valeurs
+     let carreDe5 = calculeCarre(nombre: 5)
+     print("Le carré de 5 est \(carreDe5).")
+ 
  */
+
+/*:
+ ## LA PRATIQUE
+
+
+--------------------------------
+   **Exercice 0**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ */
+//:
+
+func disBonjour(prenom:String, nom:String) -> String {
+
+    let result : String = "Bonjour " + prenom + " " + nom
+    
+    print(result)
+    
+    return result
+}
+
+disBonjour(prenom: "Roger", nom: "Infgouacka")
+SparSwift_correct_my_exercice_0(f: disBonjour)
+
+//: > **À savoir** :
+//: Vérifier ensuite la correction de votre exercice dans la console ci dessous :)
+//:  Good luck !
+//: --------------------------------
+
 //: [Précédent](@previous) | [Suivant](@next)
