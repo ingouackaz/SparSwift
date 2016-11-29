@@ -159,6 +159,41 @@ disBonjour(prenom: "Roger")
  * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
  * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
  --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
+ **Exercice 1**
+ * Créez une fonction qu'on appellera `disBonjour`.
+ * disBonjour prendra en paramètre 2 variable de type `String` et renverra une variable de type String.
+ * disBonjour renverra une string qui contiendra `"Bonjour + parameter1 + pararemeter2 + comment tu vas :) ?"`
+ --------------------------------
 */
 //:
 //: [Précédent](@previous) | [Suivant](@next)

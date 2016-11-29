@@ -31,8 +31,6 @@ var myName : String = "Roger"
 var myLastName : String = "Federer"
 var myOld : Int = 24
 
-// Rajouter let
-
 //: En français les lignes ci-dessus se traduisent  par
 //:
 //: * Ligne 30 : _Je *déclare* une variable que j'appelle `myName` de type `String` et je lui assigne le texte `Roger`_
@@ -47,66 +45,83 @@ var myOld : Int = 24
 //: Voyons si ces quelques notions sont acquises :)
 /*:
  ## LA PRATIQUE
- */
-//:
-//: --------------------------------
-//: **Exercice 0**
-//:
-//: Créez une variable qu'on appellera `Premier exemple` de type `String` qui contiendra la valeur _"Premier exemple"_
-//:
-var str1 : String = "Premier exemple"
 
 
-SparSwift_correct_my_exercice_0(string: "")
+--------------------------------
+ **Exercice 0**
+
+* Créez une variable qu'on appellera `str0` de type `String`
+* La variable `str` doit contenir la valeur `"Premier exemple"`
+* Ensuite faites corriger votre exercie avec le _SparSwiftCorrector_ ! 
+* Syntaxe : `SparSwift_correct_my_exercice_x(nomDeVotreVariable)`
+*/
+// Exercice example
+
+var str0 : String = "Premier exemple"
+
+SparSwift_correct_my_exercice_0(string: str0)
 //: > **À savoir** :
-//: Vérifier ensuite la correction de votre exercice dans la console ci dessous :) 
+//: La correction de votre exercice apparaitra dans la console ci dessous :)
 //:  Good luck !
-//: --------------------------------
-//: **Exercice 1**
-//:
-//: Créez une variable qu'on appellera `str` de type `String` qui contiendra la valeur _"Salut tout le monde"_
-var str : String = "Salut les amis"
-SparSwift_correct_my_exercice_1(string: str)
+/*:
+--------------------------------
+ **Exercice 1**
+* Créez une variable qu'on appellera `str1` de type `String`
+* La variable `str1` doit contenir la valeur _"Salut tout le monde"_
+*/
+// SparSwift_correct_my_exercice_1(string: str1)
 
-// SparSwifter_exo_2(word:str)
-//: --------------------------------
-//: **Exercice 2**
-//:
-//: Créez une variable qu'on appellera `isCool` de type `Bool` qui contiendra la valeur _true_
-// var
-// SparSwifter_exo_2(word:str)
+/*:
+--------------------------------
+**Exercice 2**
+* Créez une variable qu'on appellera `isCool` de type `Bool` 
+* La variable `isCool` doit contenir  la valeur _true_
+*/
+// SparSwift_correct_my_exercice_2(value:isCool)
 
-//: --------------------------------
-//: **Exercice 3**
-//:
-//: Créez une variable qu'on appellera `num` de type `Int` qui contiendra la valeur _21_
-var num : Int = 0
-// SparSwifter_exo_2(word:str)
-//: --------------------------------
-//: **Exercice 4**
-//:
-//: Créez une variable qu'on appellera `taille` de type `Double` qui contiendra la valeur _1.80_
-var tailleEnMetre : String = "Salut les amis"
-// SparSwifter_exo_2(word:str)
-///: --------------------------------
+/*: 
+--------------------------------
+**Exercice 3**
+* Créez une variable qu'on appellera `num` de type `Int
+* La variable `num` doit contenir la valeur _21_
+*/
+// SparSwift_correct_my_exercice_3(word:str)
+/*:
+--------------------------------
+**Exercice 4**
 
+* Créez une variable qu'on appellera `taille` de type `Double`
+* La variable `taille` doit contenir la valeur _1.80_
+*/
+// SparSwift_correct_my_exercice_4(word:str)
+/*:
+--------------------------------
+**Exercice 5**
+* Créez une variable qu'on appellera `name` de type String. 
+* La variable `name` doit contenir la valeur _"Roger"_
+* Créez une variable qu'on appellera `lastname` de type String.
+* La variable `lastname` doit contenir la valeur  _"Federer"_
+*/
+// SparSwift_correct_my_exercice_5
+/*:
+--------------------------------
+ **Exercice 6**
+* Créez une variable qu'on appelera name de type String
+* Créez une variable qu'on appelera name de type String
+* Créez une variable qu'on appelera name de type Int
+* Créez une variable qu'on appelera name de type Double
+* Créez une variable qu'on appelera name de type Int
+* Renseignez la valeur que vous souhaitez dans chacune de ces variables et observez le résultat !
+//:
+*/
+// SparSwift_correct_my_exercice_6
+/*:
+--------------------------------
+ **Exercice 7**
 
-//: **Exercice 5**
-//:
-//: Créez 2 variables : une qu'on appellera  name de type String et une autre qu'on appellera lastname de type String. Elles contiendront respectivements les valeus _"Roger"_ et _"Federer"_
-var str4 : String = "Salut les amis"
-// SparSwifter_exo_2(word:str)
-//: --------------------------------
-//: **Exercice 6**
-//:
-//: Créez une variable qu'on appelera name de type String une autre qu'on appellera lastname de type String, une autre qu'ona appelera anneeNaissance de type Int, une autre qu'on appelera taille en Double et une dernière qu'on appelera poids en Int.
-//:
-// SparSwifter_exo_2(word:str)
-//: --------------------------------
-//: **Exercice 7**
-//:
-//: Vrai ou Faux : On peut la valaur 1920 dans une variable de type String
-//:
+ `Vrai` ou `Faux` : On peut stocker la valaur `1920` dans une variable de type `String`
+
+*/
 // SparSwifter_exo_2(word:str)
 //: --------------------------------
 //: **Exercice 8**
@@ -154,7 +169,7 @@ var str4 : String = "Salut les amis"
 // SparSwifter_exo_2(word:str)
 
 
-//: Les variables comme leurs nom l'indique sont faites pour changer pour être manipulé , voyons ça ensemble dans le prochain Chapitre :D 
+//: _Les variables comme leurs nom l'indique sont faites pour changer pour être manipulé , voyons ça ensemble dans le prochain Chapitre :D_
 //: 
 //: 
 //:

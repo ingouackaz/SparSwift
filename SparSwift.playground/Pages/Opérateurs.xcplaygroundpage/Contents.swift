@@ -1,6 +1,6 @@
 //: [Previous](@previous)
+import PlaygroundSupport
 
-import Foundation
 
 /*:
  # LES OPÉREATEURS
@@ -9,14 +9,15 @@ import Foundation
  Les opérateurs sont des opérations qui peuvent être effecuté entre 2 variables.
  Il existe de base 5 opérations différentes.
  
- Signe et sifnigicaiton
+ Signe et sifnigication :
+
  * \(+)  -> Addition ou Contaténation
  * \(-)  ->  Soustraction
  * \(*) ->  Multiplication
  * \(/)  ->  Division
  * \(%)  ->  Modulo
  
- TOutes ces opérations ne peuvent pas être effectuer sur tout les types de varaibels.
+ Toutes ces opérations ne peuvent pas être effectuer sur tout les types de varaibels.
  
  En effet on ne peux pas soustraire 2 Bool ou encore diviser 2 String.
  
@@ -60,14 +61,95 @@ import Foundation
  
  --------------------------------
  **Exercice 0**
- * Créez une variable qu'on appellera result1 de type Int 
+ * Créez une variable qu'on appellera result0 de type Int
  * La variable contiendra le resultat de l'opération 89 * 12
 */
-var resullt1 : Int = 89 * 12
+var result0 : Int = 89 * 12
+SparSwift_correct_my_exercice_0(num:result0)
+
 /*:
 --------------------------------
  **Exercice 1**
  * Créez une variable qu'on appellera result1 de type Int
  * La variable contiendra le resultat de l'opération 89 * 12
 */
+//SparSwift_correct_my_exercice_0(num:result0)
+
+/*:
+ --------------------------------
+ **Exercice 2**
+ * Créez une variable qu'on appellera result2 de type String
+ * La variable contiendra le resultat de l'opération "Yooo" + " les meilleurs !"
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 4**
+ * Créez une variable qu'on appellera result3 de type Int
+ * La variable contiendra le resultat de l'opération 120 % 25
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 5**
+ * Créez une variable qu'on appellera result4 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 6**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 7**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 8**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 9**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 10**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 11**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 12**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
+/*:
+ --------------------------------
+ **Exercice 13**
+ * Créez une variable qu'on appellera result1 de type Int
+ * La variable contiendra le resultat de l'opération 89 * 12
+ */
+//SparSwift_correct_my_exercice_0(num:result0)
 //: [Next](@next)
