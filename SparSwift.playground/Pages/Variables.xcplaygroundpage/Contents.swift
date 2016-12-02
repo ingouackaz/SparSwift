@@ -1,24 +1,19 @@
-
-
 /*:
- # LA BASE
+ # LES VARIABLES
  */
 //:
 /*:
-//: En swift, on utilise des variables pour stocker  et manipuler des informations comme un prénom , un nom, l'age d'une personne ou encore son adesse mail.
-//: Toutes ces variables possèdent un type relatif à leurs contenu
-//:
-//: Les principaux types de variables sont :
-//:
-//: * Les `String` -> Pour stocker des valeurs de type texte
-//:
-//: * Les `Int` -> Pour stocker des valeurs de type nombre entier
-//:
-//: * Les `Double` -> Pour stocker des valeurs de type nombre décimal
-//:
-//: * Les `Float` -> Pour stocker des valeurs de type nombre décimal ( avec plus de précision qu'un float )
-//:
-//: * Les `Bool` -> Pour stocker des valeurs de type vrai ou faux
+ En swift, on utilise des variables pour stocker  et manipuler des informations comme un prénom , un nom, l'age d'une personne ou encore son adesse mail.
+ 
+ Toutes ces variables possèdent un type relatif à leurs contenu.
+
+ Les principaux types de variables sont :
+
+* Les `String` -> Pour stocker des valeurs de type texte
+* Les `Int` -> Pour stocker des valeurs de type nombre entier
+* Les `Double` -> Pour stocker des valeurs de type nombre décimal
+* Les `Float` -> Pour stocker des valeurs de type nombre décimal ( avec plus de précision qu'un float )
+* Les `Bool` -> Pour stocker des valeurs de type vrai ou faux
 //: > **À savoir** :
 //: Il existe beaucoup d'autres type de variable en Swift, n'ayez crainte nous verrons tout cela dans d'autres chapitres ;)
  */
@@ -51,15 +46,18 @@ var myOld : Int = 24
  **Exercice 0**
 
 * Créez une variable qu'on appellera `str0` de type `String`
-* La variable `str` doit contenir la valeur `"Premier exemple"`
+* La variable `languageName` doit contenir la valeur `"Swift"`
+* Vous pouvez vérifier le contenu de votre variable à l'aide de l'inspecteur à droite ---->
 * Ensuite faites corriger votre exercie avec le _SparSwiftCorrector_ ! 
 * Syntaxe : `SparSwift_correct_my_exercice_x(nomDeVotreVariable)`
 */
 // Exercice example
 
-var str0 : String = "Premier exemple"
+var languageName : String = "LES SPARSWIFT  !!!!!!!"
 
-SparSwift_correct_my_exercice_0(string: str0)
+SparSwift_correct_my_exercice_0(str: languageName)
+
+
 //: > **À savoir** :
 //: La correction de votre exercice apparaitra dans la console ci dessous :)
 //:  Good luck !
@@ -69,7 +67,8 @@ SparSwift_correct_my_exercice_0(string: str0)
 * Créez une variable qu'on appellera `str1` de type `String`
 * La variable `str1` doit contenir la valeur _"Salut tout le monde"_
 */
-// SparSwift_correct_my_exercice_1(string: str1)
+//var str1 : String = "Salut tout le monde"
+SparSwift_correct_my_exercice_1(username: "AOUH AOUH !!!!")
 
 /*:
 --------------------------------
@@ -128,7 +127,7 @@ SparSwift_correct_my_exercice_0(string: str0)
 //:
 //: Vrai ou Faux : On peut stocker la valeur "Terre" dans une variable de type String
 //:
-  SparSwift_correct_my_exercice_8(answer:true)
+  SparSwift_correct_my_exercice_8(answer:false)
 //: --------------------------------
 //: **Exercice 9**
 //:

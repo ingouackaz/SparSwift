@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='osx' display-mode='rendered'>
+<playground version='6.0' target-platform='osx' display-mode='raw'>
     <pages>
         <page name='Intro'/>
         <page name='Variables'/>
         <page name='Opérateurs'/>
-        <page name='Condition&amp;Fonctions'/>
+        <page name='Fonctions'/>
+        <page name='Conditions'/>
         <page name='Markup'/>
     </pages>
 </playground>
